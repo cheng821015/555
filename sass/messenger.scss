@@ -15,36 +15,40 @@
 }
 
 
-.mess_img {
-    width: 100%;
-    background-color: #fff;
-    font-size: 0;
-}
 
-.mess_img img {
-    max-width: 100%;
-    vertical-align: middle;
-}
 
 .message {
     border-bottom: 1px dashed rgb(117, 116, 116);
     /* padding-bottom: 20px; */
     margin: 20px 0;
+
     /* background-color: rgb(241, 182, 110); */
+    .mess_img {
+        width: 100%;
+        background-color: #fff;
+        font-size: 0;
+
+        img {
+            max-width: 100%;
+            vertical-align: middle;
+        }
+    }
+
+    .mess_text {
+        h3 {
+            padding-bottom: 20px;
+        }
+
+        h4 {
+            padding-bottom: 20px;
+        }
+    }
 }
 
 
-.mess_text>h3 {
-    padding-bottom: 20px;
-}
-
-.mess_text>h4 {
-    padding-bottom: 20px;
-}
 
 
-
-.pagbutton>li {
+.pagbutton li {
     display: inline-block;
     vertical-align: middle;
     padding: 10px 15px;
@@ -56,27 +60,23 @@
 /* 下面分頁按鈕 */
 .pagination {
     text-align: center;
+
+    li {
+        /* border: 1px solid black; */
+        display: inline-block;
+        vertical-align: middle;
+        padding: 10px 15px;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
 }
-
-
-.pagination>li {
-    /* border: 1px solid black; */
-    display: inline-block;
-    vertical-align: middle;
-    padding: 10px 15px;
-    cursor: pointer;
-    box-sizing: border-box;
-}
-
-
-
-
 
 
 @media screen and (min-width:768px) {
-    .pagbutton>li {
-        padding: 15px 20px;
 
+    .pagbutton {
+        li {
+            padding: 15px 20px;
+        }
     }
-
 }
