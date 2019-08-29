@@ -1,0 +1,15 @@
+//css-reset
+@import'base/reset';
+//font
+@import'layout/font';
+//header
+@import'layout/header';
+//footer
+@import'layout/footer';
+//media
+@import'layout/media';
+
+
+.backimg {
+    background-image: url('../image/001.jpg');
+}

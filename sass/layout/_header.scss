@@ -131,18 +131,6 @@
             }
         }
     }
-
-    .banner {
-        padding-bottom: 40%;
-        position: relative;
-
-        div {
-            position: absolute;
-            display: inline;
-            bottom: 0;
-            z-index: 5;
-        }
-    }
 }
 
 @media screen and (min-width:992px) {

@@ -1,0 +1,82 @@
+//css-reset
+@import'base/reset';
+//font
+@import'layout/font';
+//header
+@import'layout/header';
+//footer
+@import'layout/footer';
+//media
+@import'layout/media';
+
+
+.backimg {
+    background-image: url('../image/000002.jpg');
+}
+
+
+.mess_img {
+    width: 100%;
+    background-color: #fff;
+    font-size: 0;
+}
+
+.mess_img img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.message {
+    border-bottom: 1px dashed rgb(117, 116, 116);
+    /* padding-bottom: 20px; */
+    margin: 20px 0;
+    /* background-color: rgb(241, 182, 110); */
+}
+
+
+.mess_text>h3 {
+    padding-bottom: 20px;
+}
+
+.mess_text>h4 {
+    padding-bottom: 20px;
+}
+
+
+
+.pagbutton>li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+
+/* 下面分頁按鈕 */
+.pagination {
+    text-align: center;
+}
+
+
+.pagination>li {
+    /* border: 1px solid black; */
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 15px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+    .pagbutton>li {
+        padding: 15px 20px;
+
+    }
+
+}
