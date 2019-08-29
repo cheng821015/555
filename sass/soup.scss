@@ -1,0 +1,117 @@
+//css-reset
+@import'base/reset';
+//font
+@import'layout/font';
+//header
+@import'layout/header';
+//footer
+@import'layout/footer';
+//media
+@import'layout/media';
+
+
+// .hotpot-img {
+//     text-align: center;
+//     /* margin-bottom: 20px; */
+//     width: 100%;
+//     font-size: 0;
+
+// }
+
+
+.backimg {
+    background-image: url('../image/P7166676.jpg');
+}
+
+
+.hot {
+    box-sizing: border-box;
+
+    .hp {
+        box-sizing: border-box;
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px 10px 30px;
+        transition: all 0.3s;
+        height: 230px;
+        margin-bottom: 20px;
+        cursor: pointer;
+
+        h2 {
+            color: #000;
+            text-align: center;
+            writing-mode: vertical-lr;
+            margin: auto;
+        }
+
+        img {
+            display: inline-block;
+            vertical-align: top;
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+
+
+.hp:nth-child(1):hover,
+.hp:nth-child(2):hover,
+.hp:nth-child(3):hover,
+.hp:nth-child(4):hover,
+.hp:nth-child(5):hover {
+    background-color: #C7B299;
+}
+
+.hp:nth-child(1):hover .hotpot-text h4,
+.hp:nth-child(2):hover .hotpot-text h4,
+.hp:nth-child(3):hover .hotpot-text h4,
+.hp:nth-child(4):hover .hotpot-text h4,
+.hp:nth-child(5):hover .hotpot-text h4 {
+    color: #fbfbfb;
+}
+
+
+.bg {
+    background-image: url("../image/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .tabs_panel {
+        margin: 40px 10px;
+        display: none;
+
+        .bg-text {
+            background-color: rgba(241, 182, 110, .6);
+            display: inline-block;
+
+            h2 {
+                padding: 20px 10px;
+            }
+
+            h3 {
+                padding: 20px 10px;
+            }
+
+            p {
+                padding: 20px 10px;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width:768px) {
+
+    .hot {
+        .hp {
+            h2 {
+                writing-mode: horizontal-tb;
+            }
+        }
+    }
+
+    .bg-text {
+        margin-top: 200px;
+    }
+}

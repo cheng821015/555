@@ -1,0 +1,27 @@
+{
+  "name": "cd106",
+  "version": "1.0.0",
+  "description": "# 環境安裝",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sexfat/cd106testsss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sexfat/cd106/issues"
+  },
+  "homepage": "https://github.com/sexfat/cd106#readme",
+  "dependencies": {
+    "bootstrap-sass": "^3.4.1",
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "jquery": "^3.3.1"
+  }
+}
