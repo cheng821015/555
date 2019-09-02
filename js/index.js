@@ -14,9 +14,6 @@ var section_02 = new ScrollMagic.Scene({
     offset: 0,
 
 }).setTween(animation_02)
-.addIndicators({
-    colorTigger: "white",
-    colorStart: "white",
-})
+// .addIndicators()
 .addTo(controller)
 
