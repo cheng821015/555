@@ -16,31 +16,6 @@
     background-color:rgba(238, 238, 238,.6) ;
 }
 
-// .title > h1{
-//     height: 45px;
-//     text-align: center;
-//     line-height: 50px;
-//     margin-bottom: 20px;
-
-// }
-// .title >h1::after{
-//     content: " ";
-//     display: block;
-//     width: 120px;
-//     height: 0;
-//     border: 2px solid rgb(214, 130, 52);
-//     margin: auto;
-//     position: relative;
-//     border-radius: 50px;
-// }
-
-/* .container{
-    background-image: url("img/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
-
 .slider_container {
     width: 100%;
     position: relative;
@@ -115,11 +90,7 @@
 
 .ffogg{
     margin: 20px 0;
-    /* background-color: rgb(241, 182, 110); */
 }
-/* .text{
-    background-color: rgb(241, 182, 110);
-} */
 
 .fog{
     width: 100%;
@@ -279,16 +250,9 @@ filter: alpha(opacity=0);
 .mpa-item img{
     width: 100%;
     transition: all 0.5s ease 0s;
-    
 }
 
-/* .mpa-item::after{
-    content: "";
-    display: block;
-    position: absolute;
-    background-image: url("img/LOGO01.png");
-    z-index: 1;
-} */
+
 
 .mpa-item img:hover{
     transform: scale(1.05);
@@ -304,7 +268,6 @@ filter: alpha(opacity=0);
 }
 
 .map_text{
-    /* background-color: rgb(241, 182, 110); */
     margin:10px 0 15px;
     padding-left: 10px;
 }
@@ -317,9 +280,7 @@ filter: alpha(opacity=0);
 
 
 @media screen and (min-width:768px){
-    .title{margin: 54px 0px;
-        padding: 20px 0;
-    }
+    
     .ho_po{margin: 20px 0;}
     .slider_container {
         margin-top: 65px;

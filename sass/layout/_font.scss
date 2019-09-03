@@ -8,13 +8,13 @@ a {
 }
 
 h1 {
-    font-size: 26px;
+    font-size: 28px;
     line-height: 1.5rem;
     font-family: 'Microsoft JhengHei';
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 1.5rem;
     font-family: 'Microsoft JhengHei';
 }
@@ -25,14 +25,9 @@ h3 {
     font-family: 'Microsoft JhengHei';
 }
 
-h4 {
-    font-size: 20px;
-    line-height: 1.5rem;
-    font-family: 'Microsoft JhengHei';
-}
 
 p {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.8rem;
     font-family: 'Microsoft JhengHei';
 }
@@ -114,6 +109,11 @@ a {
 
 
 @media screen and (min-width:768px) {
+    .title {
+        margin: 40px 0px;
+        // padding: 20px 0;
+    }
+
     .banner {
         padding-bottom: 40%;
         position: relative;
@@ -124,11 +124,12 @@ a {
             bottom: 0px;
             z-index: 5;
             padding: 20px 0px;
+
             a {
                 padding: 5px 10px;
                 margin-left: 20px;
                 border: 1px solid rgb(52, 51, 51);
-                background-color:  rgba(238, 238, 238, 0.9);
+                background-color: rgba(238, 238, 238, 0.9);
             }
         }
     }

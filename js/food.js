@@ -11,7 +11,7 @@ function loadMenu() {
     for (var i = 0; i < foods; i++) {
         if (select == food[i].category) {
             str += `<div  class="foodCard col-12 col-md-6 col-lg-4">
-                <img src="../image/${food[i].img}.jpg">
+                <img src="image/${food[i].img}.jpg">
                 <h2 id="foodName">${food[i].name}</h2>
                 <p id="price">價格:${food[i].price}元</p>
                 </div>`
@@ -29,7 +29,7 @@ function changeing(e) {
     for (let i = 0; i < foods; i++) {
         if (select == food[i].category) {
             str += `<div  class="foodCard col-12 col-md-6 col-lg-4">
-                    <img src="../image/${food[i].img}.jpg">
+                    <img src="image/${food[i].img}.jpg">
                     <h2 id="foodName">${food[i].name}</h2>
                     <p id="price">價格:${food[i].price}</p>
                     </div>`
