@@ -18,7 +18,7 @@
 
 
 .message {
-    border-bottom: 1px dashed rgb(117, 116, 116);
+    // border-bottom: 1px dashed rgb(117, 116, 116);
     margin: 20px 0;
 
     .mess_img {
@@ -46,11 +46,23 @@
 
 
 
-.pagbutton li {
-    display: inline-block;
-    vertical-align: middle;
-    padding: 10px 15px;
-    cursor: pointer;
+.pagbutton {
+    li {
+        display: inline-block;
+        vertical-align: middle;
+        // padding: 10px 15px;
+        cursor: pointer;
+
+        &:hover a {
+            background-color: #F0F0F7;
+            color: #615F67;
+        }
+
+        a {
+            padding: 10px 15px;
+        }
+
+    }
 }
 
 
@@ -62,9 +74,23 @@
     li {
         display: inline-block;
         vertical-align: middle;
-        padding: 10px 15px;
+        padding: 10px 0px;
         cursor: pointer;
         box-sizing: border-box;
+
+        a {
+            padding: 5px 15px;
+        }
+
+        &:hover a {
+            background-color: #F0F0F7;
+            color: #615F67;
+        }
+
+        // a{
+        //     background-color: #F0F0F7;
+        //     color: rgb(255, 255, 255);
+        // }
     }
 }
 

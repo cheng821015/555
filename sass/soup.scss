@@ -13,7 +13,7 @@
     background-image: url('../image/P7166676.jpg');
 }
 
-
+//上面小圖
 .hot {
     box-sizing: border-box;
 
@@ -32,6 +32,7 @@
             text-align: center;
             writing-mode: vertical-lr;
             margin: auto;
+            color: rgb(255, 255, 255);
         }
 
         img {
@@ -40,28 +41,27 @@
             width: 100%;
             height: auto;
         }
+
+        &:nth-child(1):hover,
+        &:nth-child(2):hover,
+        &:nth-child(3):hover,
+        &:nth-child(4):hover,
+        &:nth-child(5):hover {
+            background-color: #F0F0F7;
+        }
+
+        &:nth-child(1):hover h2,
+        &:nth-child(2):hover h2,
+        &:nth-child(3):hover h2,
+        &:nth-child(4):hover h2,
+        &:nth-child(5):hover h2 {
+            color: #615F67;
+        }
+
     }
 }
 
-
-
-.hp:nth-child(1):hover,
-.hp:nth-child(2):hover,
-.hp:nth-child(3):hover,
-.hp:nth-child(4):hover,
-.hp:nth-child(5):hover {
-    background-color: #C7B299;
-}
-
-.hp:nth-child(1):hover .hotpot-text h4,
-.hp:nth-child(2):hover .hotpot-text h4,
-.hp:nth-child(3):hover .hotpot-text h4,
-.hp:nth-child(4):hover .hotpot-text h4,
-.hp:nth-child(5):hover .hotpot-text h4 {
-    color: #fbfbfb;
-}
-
-
+//下面大圖
 .bg {
     background-image: url("../image/bg.jpg");
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@
         display: none;
 
         .bg-text {
-            background-color: rgba(241, 182, 110, .6);
+            background-color: #B8A98D;
             display: inline-block;
 
             h2 {
@@ -88,7 +88,6 @@
             }
         }
     }
-
 }
 
 @media screen and (min-width:768px) {

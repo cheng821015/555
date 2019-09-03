@@ -43,12 +43,20 @@
         padding: 20px;
 
         &:hover {
-            background-color: rgb(202, 197, 197);
+            background-color: #F0F0F7;
         }
 
         &:hover img {
             opacity: 1;
         }
+
+        &:hover h2{
+            color: #615F67;
+        }
+
+        &:hover p{
+                color: #615F67;
+            }
 
         img {
             width: 100%;
@@ -58,10 +66,13 @@
 
         h2 {
             padding: 10px;
+
+            
         }
 
         p {
             padding: 10px;
+
         }
     }
 
