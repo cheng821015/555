@@ -1,67 +1,65 @@
 .footer {
     width: 100%;
-    background-color: rgba(97, 95, 103,.9);
+    background-color: rgba(97, 95, 103, .9);
     margin-top: 30px;
-}
 
-.foot-box {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: auto;
-    margin-top: 20px;
-    box-sizing: border-box;
-}
+    .foot-box {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: auto;
+        margin-top: 20px;
+        box-sizing: border-box;
 
-.foot-img {
-    width: 100%;
-    font-size: 0;
-    padding: 20px 0;
-}
+        .foot-img {
+            width: 20%;
+            font-size: 0;
+            padding: 20px 0;
 
-.foot-img img {
-    width: 100%;
-}
+            img {
+                width: 100%;
+            }
+        }
 
-.foot-icon h4 {
-    font-family: 'Microsoft JhengHei';
-    font-size: 20px;
-    padding: 10px 0;
-}
+        .foot-icon {
+            h4 {
+                font-family: 'Microsoft JhengHei';
+                font-size: 20px;
+                padding: 10px 0;
+                color: rgb(255, 255, 255);
+            }
 
-.foot-icon ul li {
-    float: left;
-    box-sizing: border-box;
-    text-align: center;
-    /* line-height:80px; */
-    padding: 10px 0;
+            ul li {
+                float: left;
+                box-sizing: border-box;
+                text-align: center;
+                /* line-height:80px; */
+                padding: 10px 0;
 
-}
+                li {
+                    width: 50px;
 
-.foot-icon li {
-    width: 50px;
-}
-
-.foot-icon a>img {
-    width: 50%;
-}
-
-.foot-text {
-    text-align: center;
-    padding: 10px 0;
-    border-top: 1px solid #000;
-    color: rgb(39, 38, 38);
-    font-family: 'Microsoft JhengHei';
-    font-size: 20px;
-    padding: 20px 0;
-}
+                    a {
+                        img {
+                            width: 20%;
+                        }
+                    }
+                }
+            }
+        }
 
 
-
-@media screen and (max-width:767px){
-    .title{padding: 20px 0px;}
+        .foot-text {
+            text-align: center;
+            padding: 10px 0;
+            border-top: 1px solid #000;
+            color: rgb(39, 38, 38);
+            font-family: 'Microsoft JhengHei';
+            font-size: 20px;
+            padding: 20px 0;
+            color: rgb(255, 255, 255);
+        }
     }
-
-
+}
 
 @media screen and (min-width:768px) {
     .foot-img {

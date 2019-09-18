@@ -3,8 +3,8 @@ h1,
 h2,
 h3,
 p,
-a ,
-span{
+a,
+span {
     font-family: 'Microsoft JhengHei';
     color: rgb(255, 255, 255);
 }
@@ -42,7 +42,7 @@ a {
 
 }
 
-body{
+body {
     background-color: rgba(194, 194, 194, 0.9);
 }
 
@@ -67,31 +67,37 @@ body{
         bottom: 0;
     }
 
-    div {
+    .backA {
         position: absolute;
         display: inline;
         bottom: 0px;
         z-index: 5;
         padding: 20px 0px;
+        
+
 
         a {
             padding: 5px 10px;
             margin-left: 20px;
             // border: 1px solid rgb(52, 51, 51);
-            background-color: rgba(97, 95, 103,.9);
+            background-color: rgba(97, 95, 103, .9);
             color: rgb(255, 255, 255);
 
-            &:hover{
+
+            &:hover {
                 background-color: #F0F0F7;
                 color: #615F67;
             }
         }
+
+
+
     }
 }
 
 //每一個區塊
 .container {
-    background-color: rgb(97, 95, 103,);
+    background-color: rgb(97, 95, 103, );
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
@@ -99,7 +105,7 @@ body{
     box-sizing: border-box;
 
     .row {
-        background-color: rgb(97, 95, 103,);
+        background-color: rgb(97, 95, 103, );
     }
 }
 
@@ -134,6 +140,28 @@ body{
     }
 }
 
+@media screen and (max-width:767px) {
+    .banner {
+        .backA {
+            position: absolute;
+            display: inline;
+            bottom: 0px;
+            z-index: 5;
+            // padding: 20px 0px;
+
+            a {
+                padding: 5px 10px;
+                display: block;
+                margin: 10px 0;
+                margin-left: 16px;
+                // border: 1px solid rgb(52, 51, 51);
+                background-color: rgba(97, 95, 103, .9);
+            }
+        }
+    }
+
+}
+
 
 
 @media screen and (min-width:768px) {
@@ -146,7 +174,7 @@ body{
         padding-bottom: 40%;
         position: relative;
 
-        div {
+        .backA {
             position: absolute;
             display: inline;
             bottom: 0px;
@@ -155,9 +183,9 @@ body{
 
             a {
                 padding: 5px 10px;
-                margin-left: 20px;
+                margin-left: 16px;
                 // border: 1px solid rgb(52, 51, 51);
-                background-color: rgba(97, 95, 103,.9);
+                background-color: rgba(97, 95, 103, .9);
             }
         }
     }

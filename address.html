@@ -31,7 +31,7 @@
 
     <div class="banner">
         <div class="backimg"></div>
-        <div>
+        <div class="backA">
             <a href="#">線上訂位</a>
             <a href="#">套餐禮卷</a>
             <a href="#">鍋言鍋語</a>
@@ -170,27 +170,27 @@
 
             <div class="form-box col-12 col-md-12">
                 <form action="#">
-                    <label for="name">姓名:</label>
+                    <label for="name" id="nameId">姓名:</label>
                     <input type="text">
-                    <label for="phone">聯絡電話:</label>
+                    <label for="phone" id="phoneId">聯絡電話:</label>
                     <input type="text">
-                    <label for="email">信箱:</label>
+                    <label for="email" id="emailId">信箱:</label>
                     <input type="email">
                     <label for="date">用餐日期:</label>
                     <input type="date">
                     <label for="time">用餐時段:</label>
-                    <select name="location" id="" size="">
+                    <select name="location">
                         <option value="">中午11:00~13:59</option>
                         <option value="">下午14:00~17:59</option>
                         <option value="">晚上18:00~23:00</option>
                     </select>
                     <label for="">選擇餐廳:</label>
-                    <select name="location" id="" size="">
+                    <select name="location">
                         <option value="">台北-京站店</option>
                         <option value="">板橋-大遠百店</option>
                         <option value="">中壢-大江店</option>
                     </select>
-                    <input class="sub-but" type="submit">
+                    <input class="sub-but" type="button" id="submitId"  value="提交">
                 </form>
             </div>
             <div class="clearfix"></div>
