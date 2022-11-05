@@ -19,7 +19,7 @@
   "dependencies": {
     "bootstrap-sass": "^3.4.1",
     "browser-sync": "^2.26.3",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "jquery": "^3.3.1"
